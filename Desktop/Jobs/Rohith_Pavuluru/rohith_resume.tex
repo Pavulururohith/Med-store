@@ -1,0 +1,181 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr} 
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins to create more bottom space
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in} % Adjusted from -.6in
+\addtolength{\textheight}{1.2in} % Adjusted from 1.2in
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \vspace{-1pt}
+      \textbf{#1} & #2 \\
+    \vspace{5pt}
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\huge \scshape Rohith Pavuluru} \\ \vspace{1pt}
+    \small{+1 (930) 333-4291} $|$ \href{mailto:rohithpavuluru09@gmail.com}{rohithpavuluru09@gmail.com} $|$
+    \href{https://linkedin.com/in/pavuluru-rohith}{linkedin.com/in/pavuluru-rohith} $|$ \href{https://rohith-pavuluru-portfolio.vercel.app}{rohith-pavuluru-portfolio.vercel.app} 
+    \href{https://github.com/Pavulururohith}{github.com/Pavulururohith}
+\end{center}
+\vspace{-22.5pt}
+
+%-----------EXECUTIVE PROFILE-----------------
+\section{Executive Profile}
+    \small{\textbf{Software Engineer} with robust experience in \textbf{full-stack development, DevOps}, and \textbf{cloud solutions}. Specializing in \textbf{Python, Java, React,} and \textbf{Docker}, I apply a strong CS foundation to \textbf{optimize complex systems}. Proven in delivering innovative solutions across \textbf{web and data platforms}, with demonstrated success in \textbf{technical leadership} and \textbf{project execution}.}
+\vspace{-0.4cm}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\small{\textbf{Masters in Computer Science} $|$ Indiana University Bloomington $|$ CGPA: 3.97 $|$ May 2025}\\
+\small{\textbf{Bachelor of Engineering} $|$ BMS Institute of Technology and Management $|$ CGPA: 9.11 $|$ May 2023}
+\vspace{-12pt}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}, itemsep=-5pt, topsep=-2pt, parsep=0pt]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, Java, C, C++, JavaScript, Go, SQL} \\
+     \textbf{Web Development \& Testing}{: HTML5, CSS3, Tailwind, JavaScript, React, Node.js, Next.js, Django, Selenium} \\
+     \textbf{Databases \& Cloud Computing}{: MongoDB, MySQL, AWS (Amazon Web Services), GCP (Google Cloud), SQLite} \\
+     \textbf{Data Science \& Machine Learning}{: PyTorch, Scikit-learn, OpenCV, Pandas, Numpy, Matplotlib} \\
+     \textbf{Cloud \& DevOps}{: Git, Docker, Jenkins, CI/CD (GitHub Actions, GitLab), Kubernetes} \\
+     \textbf{Tools \& Platforms}{: Postman, UFT, Jira, UIPath Studio, Android Studio, Firebase, Linux, Tableau, Power BI}
+    }}
+ \end{itemize}
+\vspace{-12pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Engineer}{Jan 2025 -- Jul 2025}
+      {Indiana University Bloomington}{Bloomington, IN}
+      \resumeItemListStart
+        \resumeItem{Spearheaded development of a \textbf{quiz-based Smart Feedback System (tabletop)} leveraging \textbf{AWS for automated quiz generation} and secure data storage. System incorporates intuitive \textbf{drag-and-drop and image grouping} functionalities.}
+        \resumeItem{Established \textbf{smart feedback system} intended to achieve \textbf{3x more qualitative feedback}, and helped generate 1,000+ unique interpretations that \textbf{enhanced valuable curatorial insights} and \textbf{bias analysis}.}
+        \resumeItem{This involved designing \textbf{intuitive UI/UX components} to ensure a highly interactive and efficient data collection process.}
+      \resumeItemListEnd
+\vspace{5pt}
+    \resumeSubheading
+      {DevOps Engineer}{Feb 2023 -- Jul 2023}
+      {Nokia Solutions and Networks}{Bengaluru, India}
+      \resumeItemListStart
+        \resumeItem{Engineered large-scale, proactive monitoring solutions using \textbf{Alertmanager}, \textbf{Grafana}, and \textbf{Kafka}, boosting system reliability by \textbf{22\%} and sharpening incident response.}
+        \resumeItem{Led design and implementation of dynamic \textbf{OpenSearch} log management, enhancing data integrity and compliance in distributed environments.}
+        \resumeItem{Optimized CI/CD pipelines with \textbf{Kubernetes}, \textbf{Docker}, and \textbf{Helm}, accelerating deployments by \textbf{25\%} and achieving \textbf{50\% Docker image size reduction}.}
+        \resumeItem{Championed software quality via rigorous \textbf{JUnit and end-to-end testing}, maintaining \textbf{92.4\% code coverage} for robust, defect-free deployments.}
+      \resumeItemListEnd
+\vspace{5pt}
+    \resumeSubheading
+      {Software Engineer}{Jul 2022 -- Oct 2022}
+      {Nano Robotics Embed Technologies}{Bengaluru, India}
+      \resumeItemListStart
+        \resumeItem{Developed \textbf{advanced weather forecasting model}, boosting \textbf{accuracy by 12\%}. Integrated \textbf{real-time sensor data} via \textbf{AWS IoT Core, Lambda, Kinesis, Timestream, S3} with IMD, using \textbf{Bayesian Neural Networks} on \textbf{SageMaker}.}
+        \resumeItem{Processed \textbf{1M+ data points}, creating \textbf{15+ Tableau visualizations}. Applied \textbf{subtractive clustering} to identify \textbf{micro-climates} and refine patterns.}
+        \resumeItem{Designed a \textbf{real-time alert system} for extreme weather, sending \textbf{WhatsApp notifications via Twilio API} (10km radius), enhancing public safety.}
+      \resumeItemListEnd
+\vspace{5pt}
+    \resumeSubheading
+      {Software Engineer}{Feb 2021 -- Jun 2022}
+      {Pramahasoft Solutions Pvt Ltd}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Architected scalable \textbf{data pipelines} using \textbf{Infor Data Lake} for \textbf{ERP/CRM data}, integrating \textbf{Infor ION} to process 200,000+ transactions hourly with \textbf{98.92\% data accuracy} for reporting.}
+        \resumeItem{Implemented \textbf{real-time data streaming} via \textbf{ION API}, \textbf{automating workflows} with \textbf{Pandas, NumPy, SQL} to \textbf{enhance accuracy}, \textbf{eliminating manual interventions}.}
+        \resumeItem{Leveraged \textbf{Snowflake Data Warehouse} to create 50+ Tableau dashboards on \textbf{Tableau Server}, empowering \textbf{real-time data visualization} and \textbf{data-driven decision-making}.}
+        \resumeItem{Established a \textbf{centralized reporting infrastructure} with \textbf{Snowflake} and \textbf{Tableau}, accelerating report generation by 40\% while enhancing processing capacity to handle \textbf{2x larger datasets} and \textbf{traffic volume}.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-0.3cm}
+
+%-----------ACADEMIC PROJECTS-----------
+\section{Projects}
+    \vspace{-2pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{CourseCraft} $|$ \emph{Firebase, AWS, Google API, Duo Authentication API}}{}
+          \vspace{-8pt}
+          \resumeItemListStart
+            \resumeItem{Engineered a \textbf{scalable full-stack LMS backend} with \textbf{Firebase} and \textbf{AWS}. Enhanced \textbf{system security} by integrating \textbf{user MFA} via \textbf{Google API} and \textbf{Duo Authentication API}.}
+            \resumeItem{Contributed to \textbf{full-stack development} including \textbf{differentiated dashboards} for professors/students. Enabled diverse \textbf{assignment creation/grading} and \textbf{submission formats}.}
+          \resumeItemListEnd
+\vspace{5pt}
+        \resumeProjectHeading
+          {\textbf{Smart Form} $|$ \emph{Django, NLP, Cosine Similarity}}{}
+          \vspace{-8pt}
+          \resumeItemListStart
+            \resumeItem{Implemented a \textbf{duplicate detection feature} using \textbf{NLP} and \textbf{cosine similarity}, resulting in \textbf{95\% accuracy} and a \textbf{40\% reduction in project selection time}.}
+            \resumeItem{Constructed a \textbf{full-stack Django application} with a \textbf{user-centric design} that \textbf{improved task completion rates by 35\%} and earned a \textbf{4.8/5 user feedback score}.}
+            \resumeItem{Orchestrated the deployment of the application to \textbf{5 university departments}, serving over \textbf{1,000+ students and faculty} and \textbf{streamlining institutional project workflows}.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-0.4cm}
+\end{document}
